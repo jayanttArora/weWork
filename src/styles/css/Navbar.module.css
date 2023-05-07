@@ -1,0 +1,63 @@
+.navbar {
+  height: 40px;
+  margin: 0 12px;
+}
+
+.navbar_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ebeb;
+}
+
+.nav_icon_div {
+  position: relative;
+}
+.nav_icon_div .nav_icon_big {
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  background: #04433b;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.nav_icon_div .nav_icon_small {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  background: #00b686;
+  position: absolute;
+  transform: translate(30%, -50%);
+}
+
+.nav_icon_arrow {
+  /* Vector */
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  left: 6%;
+  top: 3%;
+  transform: translate(-120%, 60%);
+}
+
+.nav_right_div {
+  height: inherit;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav_icon_search,
+.nav_icon_mail,
+.nav_icon_bell,
+.nav_icon_question {
+  height: 18px;
+  width: 18px;
+}
+
+.nav_icon_acc_img {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
